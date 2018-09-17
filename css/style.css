@@ -1,0 +1,60 @@
+.carrousel{
+    position: relative;
+    width: 790px;
+    margin: 4em auto;
+    overflow: hidden;
+
+}
+
+.box-carrousel-images{
+    display: flex;
+    transition: transform .6s ease-in-out;
+}
+
+.image-games {
+    width: 790px;
+}
+
+
+.carrousel-navegation{
+    height: 5vh;
+    width: 100%;
+    background-color: #000000d5;
+}
+
+.dots-carrousel{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navegation {
+    width: 70%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dots{
+    cursor: pointer;
+    margin: .1em 0 0 0;
+    width: 10%;
+    margin-right: 20px;
+    height: .75vh;
+    background-color: #414141;
+    transition: background-color .2s ease-in-out
+}
+
+.putColor{
+    background-color: #c7c6c6;
+}
+
+.next,
+.prev {
+    cursor: pointer;
+    margin: .3em 0 0 0;
+    width: 5%;
+    fill: #FFF;
+}
+
